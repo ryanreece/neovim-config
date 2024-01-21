@@ -13,3 +13,4 @@ This repository contains my personal Neovim config which is based heavily on the
 
 * Clone the repo into `~/.config/nvim/`
 * Ensure the prereqs are installed.
+* Open nvim and run `:PackerSync`.
