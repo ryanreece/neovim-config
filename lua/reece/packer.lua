@@ -44,4 +44,7 @@ return require('packer').startup(function(use)
     }
 
     use('lambdalisue/suda.vim')
+
+    -- games
+    use('theprimeagen/vim-be-good')
 end)
