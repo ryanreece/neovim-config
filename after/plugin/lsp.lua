@@ -13,6 +13,8 @@ require('mason-lspconfig').setup({
         'eslint',
         'lua_ls',
         'rust_analyzer',
+        'jsonls',
+        'yamlls',
     },
     handlers = {
         lsp_zero.default_setup,
