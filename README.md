@@ -5,7 +5,7 @@ This repository contains my personal Neovim config which is based heavily on the
 ## Prerequisites
 
 * Zsh
-* Neovim > 0.9.x (need to build from source)
+* [Neovim](https://github.com/neovim/neovim) > **0.9.x** ([need to build from source](https://github.com/neovim/neovim/blob/master/BUILD.md))
 * [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 * [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
 
@@ -17,7 +17,7 @@ This repository contains my personal Neovim config which is based heavily on the
 
 ## Signing Commits with NeoVim and Fugitive
 
-The `:!` operator in Nvim uses pipes and not a tty so therefore interactive processes such as entering a password don't work. To resolve this issue a couple of things need to be configured for processes such as GPG commit signing to work.
+Since the `:!` operator in Nvim uses pipes and not a tty, interactive processes such as entering a password to sign commits don't work. To sign commits using gpg and a password, a pinentry program needs to be configured on the system.
 
 ### Windows and WSL2
 
