@@ -12,6 +12,7 @@ require('mason-lspconfig').setup({
         'tsserver',
         'eslint',
         'lua_ls',
+        'powershell_es',
         'rust_analyzer',
         'terraformls',
         'jsonls',
