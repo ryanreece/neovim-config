@@ -58,13 +58,13 @@ return {
                 end,
 
                 pylsp = function()
-                    require('lspconfig').pylsp.setup{}
+                    require('lspconfig').pylsp.setup {}
                 end,
 
                 terraformls = function()
-                    require('lspconfig').terraformls.setup{}
-                    vim.api.nvim_create_autocmd({"BufWritePre"}, {
-                        pattern = {"*.tf", "*.tfvars"},
+                    require('lspconfig').terraformls.setup {}
+                    vim.api.nvim_create_autocmd({ "BufWritePre" }, {
+                        pattern = { "*.tf", "*.tfvars" },
                         callback = function()
                             vim.lsp.buf.format()
                         end,
