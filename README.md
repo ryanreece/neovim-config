@@ -7,13 +7,11 @@ This repository contains my personal Neovim config which is based heavily on the
 * Zsh
 * [Neovim](https://github.com/neovim/neovim) > **0.9.x** ([need to build from source](https://github.com/neovim/neovim/blob/master/BUILD.md))
 * [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-* [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ## Installation
 
 * Clone the repo into `~/.config/nvim/`
 * Ensure the prereqs are installed.
-* Open nvim and run `:PackerSync`.
 
 ## Signing Commits with NeoVim and Fugitive
 
